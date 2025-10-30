@@ -1,0 +1,35 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datos - no subir datasets grandes
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx
+*.parquet
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+*.env
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Modelos entrenados
+*.pkl
+*.h5
+*.joblib
+
+# Figuras grandes
+figures/*.png
+figures/*.jpg
+!figures/.gitkeep
